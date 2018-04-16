@@ -18,4 +18,5 @@
   * Advanced Scheduling: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#taints-and-toleations-beta-feature
   * https://kubernetes.io/docs/tutorials/stateless-application/guestbook/
   * http://slack.k8s.io/
-  * 
+  * Slides: https://github.com/stevemcquaid/kubernetes-workshop
+  * Inspiration: https://github.com/luxas/kubeadm-workshop
