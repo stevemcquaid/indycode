@@ -16,4 +16,4 @@
   * http://traefik.rbaz.com/dashboard
   * https://kubernetes.io/docs/concepts/services-networking/service/#publishing-services---service-types
   * Advanced Scheduling: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#taints-and-toleations-beta-feature
-  * 
+  * https://kubernetes.io/docs/tutorials/stateless-application/guestbook/
