@@ -18,16 +18,5 @@ spec:
       - name: teflon
         image: stevemcquaid/falco-teflon:latest
         imagePullPolicy: Always
-        args:
-          - "cat /secret/foo && sleep 1000000"
         ports:
         - containerPort: 80
-        volumeMounts:
-        - name: foo
-          mountPath: "/secret/"
-          readOnly: true
-      volumes:
-      - name: foo
-        secret:
-          secretName: mysecret
-

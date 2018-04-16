@@ -6,9 +6,10 @@ metadata:
     traefik.frontend.rule.type: PathPrefixStrip
 spec:
   rules:
-  - http:
+  - host: rbaz.com
+    http:
       paths:
-      - path: /teflon
-        backend:
+      - backend:
           serviceName: teflon
           servicePort: 80
+        path: /teflon
