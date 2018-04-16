@@ -74,3 +74,7 @@ kubectl get svc -o yaml > svc.yaml
 kubectl apply -f dep.yaml -f svc.yaml
 
 kubectl --namespace kurt attach -it toolbox-5749675d7f-9zjgh 
+
+
+# Prometheus Operator, grafana dashboards, etc
+https://github.com/coreos/prometheus-operator/blob/master/contrib/kube-prometheus/README.md
