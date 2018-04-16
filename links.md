@@ -13,4 +13,4 @@
   * https://github.com/kubernetes/contrib
   * https://github.com/kubernetes/examples
   * https://12factor.net/
-  * 
+  * http://traefik.rbaz.com/dashboard
