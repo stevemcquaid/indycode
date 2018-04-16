@@ -19,4 +19,30 @@ kubectl get pods
 
 kubectl run nginx --image=nginx:1.10.0
 
-kubectl get pods --watch # Should show one container
+# Should show one container
+kubectl get pods --watch 
+
+kubectl get deployments
+
+kubectl get deployment nginx -o yaml
+
+# Should not show anything
+kubectl get services
+
+kubectl expose deployment nginx --port 80 --type LoadBalancer
+
+# Should show one service
+kubectl get services
+# Should be same output
+kubectl get svc
+
+# curl http://<Service_IP>:80 # Cant do this
+
+# Should show one pod
+kubectl get pods
+
+kubectl scale deployment nginx --replicas=2
+
+# Should show two pods
+kubectl get pods --watch
+
