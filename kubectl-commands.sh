@@ -52,4 +52,4 @@ kubectl get deployment
 kubectl get svc
 
 kubectl get deployment -o yaml > dep.yaml
-kubectl get svc -o yaml > dep.yaml
+kubectl get svc -o yaml > svc.yaml
