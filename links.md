@@ -20,3 +20,4 @@
   * http://slack.k8s.io/
   * Slides: https://github.com/stevemcquaid/kubernetes-workshop
   * Inspiration: https://github.com/luxas/kubeadm-workshop
+  * https://ksonnet.io/tour/welcome
