@@ -13,3 +13,10 @@ NAMESPACE="steve"
 kubectl create namespace $NAMESPACE
 
 kubectl config set-context $(kubectl config current-context) --namespace=$NAMESPACE
+
+# Should not show anything
+kubectl get pods
+
+kubectl run nginx --image=nginx:1.10.0
+
+kubectl get pods --watch # Should show one container
