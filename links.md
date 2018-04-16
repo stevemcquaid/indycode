@@ -6,3 +6,11 @@
   * https://github.com/kubernetes/kompose
   * https://metaparticle.io/
   * https://www.youtube.com/watch?v=gCQfFXSHSxw
+  * https://github.com/kubernetes/kops
+  * https://github.com/kubernetes/kubeadm
+  * https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm
+  * https://github.com/kubernetes/charts/tree/master/stable
+  * https://github.com/kubernetes/contrib
+  * https://github.com/kubernetes/examples
+  * https://12factor.net/
+  * 
