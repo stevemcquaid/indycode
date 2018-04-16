@@ -3,10 +3,9 @@ kind: Service
 metadata:
   name: teflon
 spec:
+  ports:
+  - name: http
+    targetPort: 80
+    port: 80
   selector:
     app: teflon
-  ports:
-  - protocol: "TCP"
-    port: 80
-    targetPort: 80
-  type: LoadBalancer

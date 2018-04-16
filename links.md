@@ -14,3 +14,4 @@
   * https://github.com/kubernetes/examples
   * https://12factor.net/
   * http://traefik.rbaz.com/dashboard
+  * https://kubernetes.io/docs/concepts/services-networking/service/#publishing-services---service-types
