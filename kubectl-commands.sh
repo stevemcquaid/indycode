@@ -2,6 +2,9 @@
 
 # https://github.com/stevemcquaid/indycode
 
+# Install kubectl
+# https://kubernetes.io/docs/tasks/tools/install-kubectl/#before-you-begin
+
 mkdir -p $HOME/.kube
 sudo cp -i config $HOME/.kube/config
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
