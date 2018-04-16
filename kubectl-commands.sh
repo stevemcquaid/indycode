@@ -46,3 +46,10 @@ kubectl scale deployment nginx --replicas=2
 # Should show two pods
 kubectl get pods --watch
 
+# Resources you created
+kubectl get pods
+kubectl get deployment
+kubectl get svc
+
+kubectl get deployment -o yaml > dep.yaml
+kubectl get svc -o yaml > dep.yaml
