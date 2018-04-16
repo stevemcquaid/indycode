@@ -54,5 +54,21 @@ kubectl get pods
 kubectl get deployment
 kubectl get svc
 
+# Get IP of one pod
+kubectl get pods -o wide
+
+# Get IP
+kubectl get svc -o wide
+
+kubectl run -it toolbox --image stevemcquaid/toolbox:latest /bin/bash
+
+curl -L http://#POD_IP
+curl -L http://#SVC_IP
+
+
+
 kubectl get deployment -o yaml > dep.yaml
 kubectl get svc -o yaml > svc.yaml
+
+# Change out image to be a different one
+kubectl apply -f dep.yaml -f svc.yaml
